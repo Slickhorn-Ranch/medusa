@@ -6716,8 +6716,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@medusajs/user@workspace:packages/modules/user"
   dependencies:
-    "@medusajs/types": ^1.11.15
-    "@medusajs/utils": ^1.11.9
     "@mikro-orm/cli": 5.9.7
     "@swc/core": ^1.5.29
     "@swc/jest": ^0.2.36
@@ -6770,7 +6768,6 @@ __metadata:
   resolution: "@medusajs/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
   dependencies:
     "@medusajs/framework": ^0.0.1
-    "@medusajs/types": ^1.11.16
     "@mikro-orm/cli": 5.9.7
     cron-parser: ^4.9.0
     cross-env: ^5.2.1
