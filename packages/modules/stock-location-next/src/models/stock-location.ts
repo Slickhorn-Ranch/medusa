@@ -1,9 +1,9 @@
 import {
-  DALUtils,
-  Searchable,
   createPsqlIndexStatementHelper,
+  DALUtils,
   generateEntityId,
-} from "@medusajs/utils"
+  Searchable,
+} from "@medusajs/framework/utils"
 import {
   BeforeCreate,
   Entity,

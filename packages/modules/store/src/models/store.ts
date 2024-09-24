@@ -1,23 +1,23 @@
 import {
-  DALUtils,
-  Searchable,
   createPsqlIndexStatementHelper,
+  DALUtils,
   generateEntityId,
-} from "@medusajs/utils"
+  Searchable,
+} from "@medusajs/framework/utils"
 
-import { DAL } from "@medusajs/types"
+import { DAL } from "@medusajs/framework/types"
 
 import {
   BeforeCreate,
+  Cascade,
+  Collection,
   Entity,
+  Filter,
+  OneToMany,
   OnInit,
+  OptionalProps,
   PrimaryKey,
   Property,
-  Filter,
-  OptionalProps,
-  OneToMany,
-  Collection,
-  Cascade,
 } from "@mikro-orm/core"
 import StoreCurrency from "./currency"
 

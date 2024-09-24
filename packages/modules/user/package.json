@@ -49,6 +49,7 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
+    "@medusajs/framework": "^0.0.1",
     "jsonwebtoken": "^9.0.2"
   },
   "peerDependencies": {

@@ -1,18 +1,18 @@
 import {
-  DALUtils,
-  Searchable,
   createPsqlIndexStatementHelper,
+  DALUtils,
   generateEntityId,
-} from "@medusajs/utils"
+  Searchable,
+} from "@medusajs/framework/utils"
 
 import {
   BeforeCreate,
   Entity,
+  Filter,
+  ManyToOne,
   OnInit,
   PrimaryKey,
   Property,
-  Filter,
-  ManyToOne,
 } from "@mikro-orm/core"
 import Store from "./store"
 
